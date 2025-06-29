@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <title>Form Komentar</title>
+</head>
+
+<body>
+
+    <h2>Form Komentar Penonton</h2>
+
+    <form method="post" action="#">
+        Nama: <input type="text" name="nama" size="30" /><br />
+        Umur: <input type="text" name="umur" size="5" /><br />
+        Jenis Kelamin:
+        <input type="radio" name="gender" value="Laki-laki">Laki-laki
+        <input type="radio" name="gender" value="Perempuan">Perempuan<br />
+        Adegan Favorit:
+        <select name="adegan">
+            <option value="monolog">Monolog Ariel</option>
+            <option value="lampu">Lampu Sorot</option>
+            <option value="ending">Akhir Cerita</option>
+        </select><br />
+        Komentar:
+        <textarea name="komentar" rows="5" cols="50"></textarea><br />
+        <input type="submit" value="Kirim Komentar" />
+        <input type="reset" value="Reset" />
+    </form>
+
+</body>
+
+</html>
